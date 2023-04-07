@@ -1,0 +1,31 @@
+.logo-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+a.nav-title {
+    font-weight: 600;
+    font-size: large;
+    color: black;
+    padding: 5px 15px;
+}
+
+.login-button {
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: large;
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    border: none;
+}
+
+.login-button:hover {
+    color: rgba(255, 255, 255, 0.905);
+}
+
+.custom-navbar {
+    background-color: white;
+}

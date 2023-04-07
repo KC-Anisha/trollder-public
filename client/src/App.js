@@ -1,4 +1,5 @@
 import React from 'react';
+import MyNavbar from './components/Navbar';
 
 export default function App(){
   function callApi() {
@@ -9,7 +10,8 @@ export default function App(){
 
   return (
     <>
-        <button onClick={callApi}>Call API</button>
+        <MyNavbar/>
+        {/* <button onClick={callApi}>Call API</button> */}
     </>
   );
 }
