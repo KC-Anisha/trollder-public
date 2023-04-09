@@ -8,7 +8,7 @@ function MyNavbar() {
   return (
     <Navbar className="custom-navbar" expand="lg">
       <Container>
-      <Navbar.Brand href="#home" className='logo-title'>
+      <Navbar.Brand href="/" className='logo-title'>
             <img
               alt="Trollder Logo"
               src={logo}
@@ -21,10 +21,10 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className='nav-title'>Download</Nav.Link>
-            <Nav.Link href="#link" className='nav-title'>Learn</Nav.Link>
+            <Nav.Link href="download" className='nav-title'>Download</Nav.Link>
+            <Nav.Link href="learn" className='nav-title'>Learn</Nav.Link>
           </Nav>
-          <button className='login-button'>Log In</button>
+          {/* <button className='login-button'>Log In</button> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

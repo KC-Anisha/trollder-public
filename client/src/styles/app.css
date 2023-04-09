@@ -2,7 +2,7 @@ div.both-center {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 70vh;
     flex-direction: column;
 }
 
@@ -13,43 +13,11 @@ div.both-center {
     color: black;
 }
 
-.hero-signup-button {
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: large;
-    padding: 10px 25px;
-    margin: 15px;
-    background-color: black;
-    color: white;
-    box-shadow: none;
-    border: none;
-    min-width: 25%;
-}
 
-.hero-signup-button:hover {
-    color: rgba(255, 255, 255, 0.905);
+.google-button {
+    border-radius: 30px !important;
+    min-width: 15% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin: 10px 0px !important;
 }
-
-.hero-login-button {
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: large;
-    padding: 10px 25px;
-    margin: 0px 15px;
-    background-color: white;
-    color: black;
-    box-shadow: none;
-    border: none;
-    min-width: 25%;
-}
-
-.hero-login-button:hover {
-    background-color: #f0f0f0;
-}
-
-/* styles for screens above the breakpoint */
-@media (min-width: 992px) {
-    .hero-login-button {
-      display: none;
-    }
-  }
