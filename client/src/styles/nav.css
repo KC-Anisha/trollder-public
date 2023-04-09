@@ -1,11 +1,11 @@
 .logo-title {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 200% !important;
 }
 
 a.nav-title {
     font-weight: 600;
-    font-size: large;
+    font-size: 130%;
     color: black;
     padding: 5px 15px;
 }

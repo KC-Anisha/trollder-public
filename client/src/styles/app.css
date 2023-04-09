@@ -1,0 +1,55 @@
+div.both-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color: black;
+}
+
+.hero-signup-button {
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: large;
+    padding: 10px 25px;
+    margin: 15px;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    border: none;
+    min-width: 25%;
+}
+
+.hero-signup-button:hover {
+    color: rgba(255, 255, 255, 0.905);
+}
+
+.hero-login-button {
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: large;
+    padding: 10px 25px;
+    margin: 0px 15px;
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border: none;
+    min-width: 25%;
+}
+
+.hero-login-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* styles for screens above the breakpoint */
+@media (min-width: 992px) {
+    .hero-login-button {
+      display: none;
+    }
+  }

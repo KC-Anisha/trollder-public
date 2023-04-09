@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../styles/nav.css'
 import logo from '../images/logo.png';
 
@@ -13,8 +12,8 @@ function MyNavbar() {
             <img
               alt="Trollder Logo"
               src={logo}
-              width="40"
-              height="40"
+              width="50"
+              height="50"
               className="d-inline-block align-top"
             />{' '}
             Trollder
